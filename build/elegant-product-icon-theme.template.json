@@ -1,0 +1,18 @@
+{
+  "fonts": [
+    {
+      "id": "elegant-icons",
+      "src": [
+        {
+          "path": "./elegant-icons.woff",
+          "format": "woff"
+        }
+      ],
+      "weight": "normal",
+      "style": "normal"
+    }
+  ],
+  "iconDefinitions": {
+"insert": "items"
+  }
+}

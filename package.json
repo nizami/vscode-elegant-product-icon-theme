@@ -1,0 +1,48 @@
+{
+  "name": "elegant-product-icon-theme",
+  "displayName": "Elegant Product Icon Theme",
+  "description": "Elegant Product Icon Theme for Visual Studio Code",
+  "author": "Nizami Amirov",
+  "publisher": "nizami",
+  "version": "1.0.0",
+  "license": "MIT",
+  "engines": {
+    "vscode": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/nizami/vscode-elegant-product-icon-theme/issues"
+  },
+  "homepage": "https://github.com/nizami/vscode-elegant-product-icon-theme#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nizami/vscode-elegant-product-icon-theme.git"
+  },
+  "keywords": [
+    "icon",
+    "theme",
+    "product",
+    "elegant"
+  ],
+  "icon": "icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "productIconThemes": [
+      {
+        "id": "elegant-product-icon-theme",
+        "label": "Elegant Product Icon Theme",
+        "path": "./theme/elegant-product-icon-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "updateFont": "node ./build/updateFont.js",
+    "showFont": "open ./theme/elegant-icons.html"
+  },
+  "devDependencies": {
+    "glob": "^7.2.0",
+    "open": "^8.3.0",
+    "webfont": "^11.2.26"
+  }
+}
