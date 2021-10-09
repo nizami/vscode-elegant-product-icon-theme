@@ -13,6 +13,7 @@ async function generateFont() {
       normalize: true,
       sort: false,
       fontName: 'elegant-icons',
+      fontHeight: 1000,
     });
     const dest = path.join(__dirname, '..', 'theme', 'elegant-icons.woff');
     fs.writeFileSync(dest, result.woff, 'binary');
