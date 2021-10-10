@@ -22,6 +22,12 @@ div {
   align-items: center;
   margin-bottom: 30px;
 }
+.default {
+  color: #ccc;
+}
+.inner:hover .default {
+  color: black;
+}
 .default,
 .elegant {
   font-size: 40px;
