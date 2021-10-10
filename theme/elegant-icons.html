@@ -10,64 +10,74 @@
         padding: 10px 20px;
       }
 
-      .preview {
-        line-height: 2em;
+      div {
+        line-height: 1.5em;
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
       }
 
-      .preview_icon {
+      .default,
+      .elegant {
         display: inline-block;
         width: 32px;
         text-align: center;
-      }
-
-      .icon {
-        display: inline-block;
         font-size: 16px;
         line-height: 1;
       }
-
       @font-face {
         font-family: 'elegant-icons';
-        src: url('elegant-icons.woff?7e4c98247e0da9c800233af089778d2a')
+        src: url('elegant-icons.woff?5da8f286c3ec473eb6ab54864a0ea7fd')
           format('woff');
       }
+      @font-face {
+        font-family: 'codicon';
+        src: url('codicon.ttf?bccdc284817f48438844c16d433eae53');
+      }
 
-      .icon:before {
-        font-family: elegant-icons !important;
+      .default:before,
+      .elegant:before {
         font-style: normal;
         font-weight: normal !important;
         vertical-align: top;
       }
+      .default:before {
+        font-family: 'codicon' !important;
+      }
+      .elegant:before {
+        font-family: 'elegant-icons' !important;
+      }
+      .info {
+        flex: auto;
+      }
     </style>
-    <script>
-      window.addEventListener('load', function () {
-        let htmContent = [];
-        let cssContent = [];
-        for (let i = 0; i < 40; i++) {
-          let hexString = (0xe000 + i).toString(16);
-          cssContent.push(
-            '.icon-' + hexString + ':before { content: "\\' + hexString + '"; }'
-          );
-          htmContent.push(
-            '<div class="preview"><span class="preview_icon"><span class="icon icon-' +
-              hexString +
-              '"></span></span><span>' +
-              hexString +
-              '</span></div>'
-          );
-        }
-        let style = document.createElement('style');
-        style.type = 'text/css';
-        style.media = 'screen';
-        style.innerHTML = cssContent.join('\n');
-        document.head.appendChild(style);
-
-        document.body.innerHTML += htmContent.join('\n');
-      });
-    </script>
+    <style id="defaultIconsStyle" media="screen" type="text/css"></style>
+    <style id="elegantIconsStyle" media="screen" type="text/css"></style>
+    <script src="codicon.js"></script>
+    <script src="elegant-icons.js"></script>
   </head>
 
   <body>
-    elegant-icons
+    <script>
+      let elegantHtmlContent = [];
+      let elegantCssContent = [];
+      for (const name in defaultIcons) {
+        const hex = defaultIcons[name];
+        elegantCssContent.push(
+          `.default-${name}:before { content: "${hex}"; }
+           .elegant-${name}:before { content: "${hex}"; }`
+        );
+        elegantHtmlContent.push(
+          `<div>
+              <span class="info"><b>${name}</b> <i>${hex}</i></span>
+              <span class="default default-${name}"></span>
+              <span class="elegant elegant-${name}"></span>
+           </div>`
+        );
+      }
+      elegantIconsStyle.innerHTML = elegantCssContent.join('\n');
+      document.body.innerHTML += elegantHtmlContent.join('\n');
+    </script>
   </body>
 </html>

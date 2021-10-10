@@ -13,11 +13,8 @@
     }
   ],
   "iconDefinitions": {
-    "panel-close": {
-      "fontCharacter": "\\e000"
-    },
-    "split-horizontal": {
-      "fontCharacter": "\\e001"
+    "trash": {
+      "fontCharacter": "\\ea81"
     }
   }
 }
