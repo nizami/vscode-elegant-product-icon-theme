@@ -23,7 +23,6 @@ async function generateFont() {
     });
     const dest = path.join(__dirname, '..', 'theme', 'elegant-icons.woff');
     fs.writeFileSync(dest, result.woff, 'binary');
-    console.log(`Font created at ${dest}`);
     createJson();
   } catch (e) {
     console.error('Font creation failed.', error);

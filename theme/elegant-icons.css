@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'elegant-icons';
+  src: url('elegant-icons.woff?5da8f286c3ec473eb6ab54864a0ea7fd') format('woff');
+}
+@font-face {
+  font-family: 'codicon';
+  src: url('codicon.ttf?bccdc284817f48438844c16d433eae53');
+}
+body {
+  display: flex;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+div {
+  border-radius: 4px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.default,
+.elegant {
+  font-size: 40px;
+  height: 40px;
+}
+.default:before,
+.elegant:before {
+  font-style: normal;
+  font-weight: normal !important;
+  vertical-align: top;
+  border: solid transparent 1px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+.inner:hover .default:before,
+.inner:hover .elegant:before {
+  border: solid red 1px;
+}
+.default:before {
+  font-family: 'codicon' !important;
+}
+.elegant:before {
+  font-family: 'elegant-icons' !important;
+}
+.info {
+  font-size: 10px;
+  color: gray;
+  margin-top: 10px;
+}
+.inner {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 12px rgb(0 0 0 / 6%);
+  padding: 20px 10px;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+div:hover .inner {
+  box-shadow: 0px 0px 12px rgb(0 0 0 / 24%);
+}

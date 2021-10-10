@@ -4,15 +4,7 @@
     <meta charset="UTF-8" />
     <title>elegant-icons preview</title>
     <link rel="stylesheet" href="elegant-icons.css" />
-    <style>
-      div {
-        width: 70px;
-        margin: 0 10px 30px;
-      }
-      .inner {
-        justify-content: center;
-      }
-    </style>
+    <style></style>
     <style id="defaultIconsStyle" media="screen" type="text/css"></style>
     <style id="elegantIconsStyle" media="screen" type="text/css"></style>
     <script src="codicon.js"></script>
@@ -26,11 +18,13 @@
       for (const name in defaultIcons) {
         const hex = defaultIcons[name];
         elegantCssContent.push(
-          `.elegant-${name}:before { content: "${hex}"; }`
+          `.default-${name}:before { content: "${hex}"; }
+           .elegant-${name}:before { content: "${hex}"; }`
         );
         elegantHtmlContent.push(
           `<div>
               <span class="inner">
+                <span class="default default-${name}"></span>
                 <span class="elegant elegant-${name}"></span>
               </span>
               <span class="info" title="${hex}">${name}</span>

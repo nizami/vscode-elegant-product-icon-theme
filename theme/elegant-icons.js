@@ -1,3 +1,4 @@
 const elegantIcons = {
-  "trash": "\\ea81"
+  "terminal": "\\ea85",
+"trash": "\\ea81"
 }

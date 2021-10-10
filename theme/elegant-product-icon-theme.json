@@ -13,6 +13,9 @@
     }
   ],
   "iconDefinitions": {
+    "terminal": {
+      "fontCharacter": "\\ea85"
+    },
     "trash": {
       "fontCharacter": "\\ea81"
     }
