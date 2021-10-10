@@ -4,18 +4,27 @@
     <meta charset="UTF-8" />
     <title>elegant-icons preview</title>
     <style>
+      @font-face {
+        font-family: 'elegant-icons';
+        src: url('elegant-icons.woff?5da8f286c3ec473eb6ab54864a0ea7fd')
+          format('woff');
+      }
+      @font-face {
+        font-family: 'codicon';
+        src: url('codicon.ttf?bccdc284817f48438844c16d433eae53');
+      }
       body {
         font-family: sans-serif;
         margin: 0;
         padding: 10px 20px;
       }
-
       div {
         line-height: 1.5em;
         width: 300px;
         display: flex;
         justify-content: space-between;
         align-items: baseline;
+        margin: auto;
       }
 
       .default,
@@ -26,16 +35,6 @@
         font-size: 16px;
         line-height: 1;
       }
-      @font-face {
-        font-family: 'elegant-icons';
-        src: url('elegant-icons.woff?5da8f286c3ec473eb6ab54864a0ea7fd')
-          format('woff');
-      }
-      @font-face {
-        font-family: 'codicon';
-        src: url('codicon.ttf?bccdc284817f48438844c16d433eae53');
-      }
-
       .default:before,
       .elegant:before {
         font-style: normal;
@@ -50,6 +49,8 @@
       }
       .info {
         flex: auto;
+        display: inline-block;
+        min-width: 400px;
       }
     </style>
     <style id="defaultIconsStyle" media="screen" type="text/css"></style>
