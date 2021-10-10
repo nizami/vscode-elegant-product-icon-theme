@@ -10,7 +10,6 @@ async function generateFont() {
     const result = await webfont.webfont({
       files: 'icons/**/*.svg',
       formats: ['woff'],
-      // startUnicode: 0xe000,
       verbose: true,
       normalize: true,
       sort: false,
