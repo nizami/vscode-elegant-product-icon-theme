@@ -7,7 +7,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "engines": {
-    "vscode": "*"
+    "vscode": "^1.22.0"
   },
   "bugs": {
     "url": "https://github.com/nizami/vscode-elegant-product-icon-theme/issues"
@@ -42,7 +42,13 @@
   },
   "devDependencies": {
     "glob": "^7.2.0",
+    "lodash": "^4.17.21",
     "open": "^8.3.0",
-    "webfont": "^11.2.26"
+    "path-that-svg": "^1.2.4",
+    "potrace": "^2.1.8",
+    "rimraf": "^3.0.2",
+    "svgo": "^2.7.0",
+    "webfont": "^11.2.26",
+    "xml2js": "^0.4.23"
   }
 }

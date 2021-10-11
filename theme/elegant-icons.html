@@ -13,9 +13,7 @@
         justify-content: center;
       }
     </style>
-    <style id="defaultIconsStyle" media="screen" type="text/css"></style>
     <style id="elegantIconsStyle" media="screen" type="text/css"></style>
-    <script src="codicon.js"></script>
     <script src="elegant-icons.js"></script>
   </head>
 
@@ -23,8 +21,8 @@
     <script>
       let elegantHtmlContent = [];
       let elegantCssContent = [];
-      for (const name in defaultIcons) {
-        const hex = defaultIcons[name];
+      for (const name in elegantIcons) {
+        const hex = elegantIcons[name];
         elegantCssContent.push(
           `.elegant-${name}:before { content: "${hex}"; }`
         );

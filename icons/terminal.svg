@@ -1,5 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-terminal">
-    <polyline points="4 17 10 11 4 5"></polyline>
-    <line x1="12" y1="19" x2="20" y2="19"></line>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" version="1.1">
+	<path d="M 41.255 108.250 C 92.141 174.630, 152.429 254.774, 152.429 256.038 C 152.429 256.905, 126.232 292.998, 94.214 336.245 C 62.196 379.492, 36 415.129, 36 415.438 C 36 415.747, 44.461 416, 54.803 416 L 73.606 416 132.800 336 L 191.995 256 132.800 176 L 73.606 96 52.735 96 L 31.865 96 41.255 108.250 M 192 400 L 192 416 336 416 L 480 416 480 400 L 480 384 336 384 L 192 384 192 400" stroke="none" fill="black" fill-rule="evenodd"/>
 </svg>

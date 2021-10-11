@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["codicon", "svgs", "webfont"]
+  "cSpell.words": ["codicon", "potrace", "svgs", "webfont"],
+  "svg.preview.background": "custom"
 }

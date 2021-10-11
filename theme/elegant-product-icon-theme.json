@@ -13,11 +13,17 @@
     }
   ],
   "iconDefinitions": {
+    "panel-close": {
+      "fontCharacter": "\\e000"
+    },
+    "panel-maximize": {
+      "fontCharacter": "\\e001"
+    },
     "terminal": {
-      "fontCharacter": "\\ea85"
+      "fontCharacter": "\\e002"
     },
     "trash": {
-      "fontCharacter": "\\ea81"
+      "fontCharacter": "\\e003"
     }
   }
 }

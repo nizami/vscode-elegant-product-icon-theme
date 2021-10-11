@@ -2,8 +2,16 @@ const webfont = require('webfont');
 const fs = require('fs');
 const path = require('path');
 const { glob } = require('glob');
-const { join } = require('path');
 const { defaultIcons } = require('../theme/codicon');
+const optimizeIcons = require('./optimize-icons');
+
+const svgFiles = glob
+  .sync('icons/**/*.svg')
+  .map((x) => x.replace('icons/', '').replace('.svg', ''));
+
+for (const name of svgFiles) {
+  if (!defaultIcons[name]) throw 'Wrong icon name: ' + name;
+}
 
 async function generateFont() {
   try {
@@ -30,10 +38,10 @@ async function generateFont() {
 }
 
 function createJson() {
-  const gen = glob
-    .sync('icons/**/*.svg')
-    .map((x) => x.replace('icons/', '').replace('.svg', ''))
-    .map((x, i) => ({ name: x, value: defaultIcons[x].replace('\\', '\\\\') }));
+  const gen = svgFiles.map((x, i) => ({
+    name: x,
+    value: defaultIcons[x].replace('\\', '\\\\'),
+  }));
 
   iconDefinitions = gen
     .map(
@@ -60,4 +68,5 @@ function createJson() {
   );
 }
 
+optimizeIcons();
 generateFont();
