@@ -13,17 +13,20 @@
     }
   ],
   "iconDefinitions": {
-    "panel-close": {
+    "explorer-view": {
       "fontCharacter": "\\e000"
     },
-    "panel-maximize": {
+    "panel-close": {
       "fontCharacter": "\\e001"
     },
-    "terminal": {
+    "panel-maximize": {
       "fontCharacter": "\\e002"
     },
-    "trash": {
+    "terminal": {
       "fontCharacter": "\\e003"
+    },
+    "trash": {
+      "fontCharacter": "\\e004"
     }
   }
 }

@@ -1,6 +1,7 @@
 const elegantIcons = {
-  "panel-close": "\\e000",
-"panel-maximize": "\\e001",
-"terminal": "\\e002",
-"trash": "\\e003"
+  "explorer-view": "\\e000",
+"panel-close": "\\e001",
+"panel-maximize": "\\e002",
+"terminal": "\\e003",
+"trash": "\\e004"
 }
