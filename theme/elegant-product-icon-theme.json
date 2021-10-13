@@ -13,7 +13,7 @@
     }
   ],
   "iconDefinitions": {
-    "explorer-view": {
+    "explorer-view-icon": {
       "fontCharacter": "\\e000"
     },
     "panel-close": {
