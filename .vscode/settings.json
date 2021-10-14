@@ -1,4 +1,5 @@
 {
   "cSpell.words": ["codicon", "potrace", "svgs", "webfont"],
-  "svg.preview.background": "transparent"
+  "svg.preview.background": "transparent",
+  "git.postCommitCommand": "none"
 }

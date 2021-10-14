@@ -31,98 +31,104 @@
     "explorer-view-icon": {
       "fontCharacter": "\\e005"
     },
-    "extensions-view-icon": {
+    "extensions-manage": {
       "fontCharacter": "\\e006"
     },
-    "feedback": {
+    "extensions-manage2": {
       "fontCharacter": "\\e007"
     },
-    "feedback2": {
+    "extensions-manage3": {
       "fontCharacter": "\\e008"
     },
-    "feedback3": {
+    "extensions-view-icon": {
       "fontCharacter": "\\e009"
     },
-    "git-branch": {
+    "feedback": {
       "fontCharacter": "\\e00a"
     },
-    "home": {
+    "feedback2": {
       "fontCharacter": "\\e00b"
     },
-    "home`": {
+    "feedback3": {
       "fontCharacter": "\\e00c"
     },
-    "home1": {
+    "git-branch": {
       "fontCharacter": "\\e00d"
     },
-    "panel-close": {
+    "home": {
       "fontCharacter": "\\e00e"
     },
-    "panel-close2": {
+    "home`": {
       "fontCharacter": "\\e00f"
     },
-    "panel-maximize": {
+    "home1": {
       "fontCharacter": "\\e010"
     },
-    "person": {
+    "panel-close": {
       "fontCharacter": "\\e011"
     },
-    "remote-explorer-view-icon": {
+    "panel-close2": {
       "fontCharacter": "\\e012"
     },
-    "remote": {
+    "panel-maximize": {
       "fontCharacter": "\\e013"
     },
-    "run-view-icon": {
+    "person": {
       "fontCharacter": "\\e014"
     },
-    "settings-view-bar-icon": {
+    "remote-explorer-view-icon": {
       "fontCharacter": "\\e015"
     },
-    "settings-view-bar-icon`": {
+    "remote": {
       "fontCharacter": "\\e016"
     },
-    "settings-view-bar-icon1": {
+    "run-view-icon": {
       "fontCharacter": "\\e017"
     },
-    "settings-view-bar-icon3": {
+    "settings-view-bar-icon": {
       "fontCharacter": "\\e018"
     },
-    "source-control-view-icon": {
+    "settings-view-bar-icon`": {
       "fontCharacter": "\\e019"
     },
-    "split-horizontal": {
+    "settings-view-bar-icon3": {
       "fontCharacter": "\\e01a"
     },
-    "split-horizontal2": {
+    "source-control-view-icon": {
       "fontCharacter": "\\e01b"
     },
-    "split-horizontal4": {
+    "split-horizontal": {
       "fontCharacter": "\\e01c"
     },
-    "split-horizontal5": {
+    "split-horizontal2": {
       "fontCharacter": "\\e01d"
     },
-    "split-vertical": {
+    "split-horizontal4": {
       "fontCharacter": "\\e01e"
     },
-    "terminal": {
+    "split-horizontal5": {
       "fontCharacter": "\\e01f"
     },
-    "trash": {
+    "split-vertical": {
       "fontCharacter": "\\e020"
     },
-    "trash2": {
+    "terminal": {
       "fontCharacter": "\\e021"
     },
-    "trash3": {
+    "trash": {
       "fontCharacter": "\\e022"
     },
-    "trash4": {
+    "trash2": {
       "fontCharacter": "\\e023"
     },
-    "trashcan": {
+    "trash3": {
       "fontCharacter": "\\e024"
+    },
+    "trash4": {
+      "fontCharacter": "\\e025"
+    },
+    "trashcan": {
+      "fontCharacter": "\\e026"
     }
   }
 }
