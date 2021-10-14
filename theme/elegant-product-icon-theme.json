@@ -13,20 +13,116 @@
     }
   ],
   "iconDefinitions": {
-    "explorer-view-icon": {
+    "bell-dot": {
       "fontCharacter": "\\e000"
     },
-    "panel-close": {
+    "bell": {
       "fontCharacter": "\\e001"
     },
-    "panel-maximize": {
+    "broadcast": {
       "fontCharacter": "\\e002"
     },
-    "terminal": {
+    "cloud-upload": {
       "fontCharacter": "\\e003"
     },
-    "trash": {
+    "cloud-upload2": {
       "fontCharacter": "\\e004"
+    },
+    "explorer-view-icon": {
+      "fontCharacter": "\\e005"
+    },
+    "extensions-view-icon": {
+      "fontCharacter": "\\e006"
+    },
+    "feedback": {
+      "fontCharacter": "\\e007"
+    },
+    "feedback2": {
+      "fontCharacter": "\\e008"
+    },
+    "feedback3": {
+      "fontCharacter": "\\e009"
+    },
+    "git-branch": {
+      "fontCharacter": "\\e00a"
+    },
+    "home": {
+      "fontCharacter": "\\e00b"
+    },
+    "home`": {
+      "fontCharacter": "\\e00c"
+    },
+    "home1": {
+      "fontCharacter": "\\e00d"
+    },
+    "panel-close": {
+      "fontCharacter": "\\e00e"
+    },
+    "panel-close2": {
+      "fontCharacter": "\\e00f"
+    },
+    "panel-maximize": {
+      "fontCharacter": "\\e010"
+    },
+    "person": {
+      "fontCharacter": "\\e011"
+    },
+    "remote-explorer-view-icon": {
+      "fontCharacter": "\\e012"
+    },
+    "remote": {
+      "fontCharacter": "\\e013"
+    },
+    "run-view-icon": {
+      "fontCharacter": "\\e014"
+    },
+    "settings-view-bar-icon": {
+      "fontCharacter": "\\e015"
+    },
+    "settings-view-bar-icon`": {
+      "fontCharacter": "\\e016"
+    },
+    "settings-view-bar-icon1": {
+      "fontCharacter": "\\e017"
+    },
+    "settings-view-bar-icon3": {
+      "fontCharacter": "\\e018"
+    },
+    "source-control-view-icon": {
+      "fontCharacter": "\\e019"
+    },
+    "split-horizontal": {
+      "fontCharacter": "\\e01a"
+    },
+    "split-horizontal2": {
+      "fontCharacter": "\\e01b"
+    },
+    "split-horizontal4": {
+      "fontCharacter": "\\e01c"
+    },
+    "split-horizontal5": {
+      "fontCharacter": "\\e01d"
+    },
+    "split-vertical": {
+      "fontCharacter": "\\e01e"
+    },
+    "terminal": {
+      "fontCharacter": "\\e01f"
+    },
+    "trash": {
+      "fontCharacter": "\\e020"
+    },
+    "trash2": {
+      "fontCharacter": "\\e021"
+    },
+    "trash3": {
+      "fontCharacter": "\\e022"
+    },
+    "trash4": {
+      "fontCharacter": "\\e023"
+    },
+    "trashcan": {
+      "fontCharacter": "\\e024"
     }
   }
 }

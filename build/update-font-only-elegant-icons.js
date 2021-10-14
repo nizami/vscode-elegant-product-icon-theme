@@ -7,7 +7,7 @@ const optimizeIcons = require('./optimize-icons');
 async function generateFont() {
   try {
     const result = await webfont.webfont({
-      files: 'icons/**/*.svg',
+      files: 'icons-result/**/*.svg',
       formats: ['woff'],
       verbose: true,
       normalize: true,
@@ -27,8 +27,8 @@ async function generateFont() {
 
 function createJson() {
   const svgFiles = glob
-    .sync('icons/**/*.svg')
-    .map((x) => x.replace('icons/', '').replace('.svg', ''));
+    .sync('icons-result/**/*.svg')
+    .map((x) => x.replace('icons-result/', '').replace('.svg', ''));
 
   const gen = svgFiles.map((x, i) => ({
     name: x,
@@ -60,5 +60,5 @@ function createJson() {
   );
 }
 
-// optimizeIcons();
+optimizeIcons();
 generateFont();
