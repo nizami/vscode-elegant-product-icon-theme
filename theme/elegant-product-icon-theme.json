@@ -13,122 +13,119 @@
     }
   ],
   "iconDefinitions": {
-    "bell-dot": {
+    "archive/cloud-upload2": {
       "fontCharacter": "\\e000"
     },
-    "bell": {
+    "archive/extensions-manage2": {
       "fontCharacter": "\\e001"
     },
-    "broadcast": {
+    "archive/feedback2": {
       "fontCharacter": "\\e002"
     },
-    "cloud-upload": {
+    "archive/feedback3": {
       "fontCharacter": "\\e003"
     },
-    "cloud-upload2": {
+    "archive/home1": {
       "fontCharacter": "\\e004"
     },
-    "explorer-view-icon": {
+    "archive/panel-close": {
       "fontCharacter": "\\e005"
     },
-    "extensions-manage": {
+    "archive/panel-close2": {
       "fontCharacter": "\\e006"
     },
-    "extensions-manage2": {
+    "archive/panel-maximize": {
       "fontCharacter": "\\e007"
     },
-    "extensions-manage3": {
+    "archive/settings-view-bar-icon`": {
       "fontCharacter": "\\e008"
     },
-    "extensions-view-icon": {
+    "archive/settings-view-bar-icon3": {
       "fontCharacter": "\\e009"
     },
-    "feedback": {
+    "archive/split-horizontal2": {
       "fontCharacter": "\\e00a"
     },
-    "feedback2": {
+    "archive/split-horizontal4": {
       "fontCharacter": "\\e00b"
     },
-    "feedback3": {
+    "archive/split-horizontal5": {
       "fontCharacter": "\\e00c"
     },
-    "git-branch": {
+    "archive/trash2": {
       "fontCharacter": "\\e00d"
     },
-    "home": {
+    "archive/trash3": {
       "fontCharacter": "\\e00e"
     },
-    "home`": {
+    "archive/trash4": {
       "fontCharacter": "\\e00f"
     },
-    "home1": {
+    "bell-dot": {
       "fontCharacter": "\\e010"
     },
-    "panel-close": {
+    "bell": {
       "fontCharacter": "\\e011"
     },
-    "panel-close2": {
+    "broadcast": {
       "fontCharacter": "\\e012"
     },
-    "panel-maximize": {
+    "cloud-upload": {
       "fontCharacter": "\\e013"
     },
-    "person": {
+    "explorer-view-icon": {
       "fontCharacter": "\\e014"
     },
-    "remote-explorer-view-icon": {
+    "extensions-manage": {
       "fontCharacter": "\\e015"
     },
-    "remote": {
+    "extensions-view-icon": {
       "fontCharacter": "\\e016"
     },
-    "run-view-icon": {
+    "feedback": {
       "fontCharacter": "\\e017"
     },
-    "settings-view-bar-icon": {
+    "git-branch": {
       "fontCharacter": "\\e018"
     },
-    "settings-view-bar-icon`": {
+    "home": {
       "fontCharacter": "\\e019"
     },
-    "settings-view-bar-icon3": {
+    "home`": {
       "fontCharacter": "\\e01a"
     },
-    "source-control-view-icon": {
+    "person": {
       "fontCharacter": "\\e01b"
     },
-    "split-horizontal": {
+    "remote-explorer-view-icon": {
       "fontCharacter": "\\e01c"
     },
-    "split-horizontal2": {
+    "remote": {
       "fontCharacter": "\\e01d"
     },
-    "split-horizontal4": {
+    "run-view-icon": {
       "fontCharacter": "\\e01e"
     },
-    "split-horizontal5": {
+    "settings-view-bar-icon": {
       "fontCharacter": "\\e01f"
     },
-    "split-vertical": {
+    "source-control-view-icon": {
       "fontCharacter": "\\e020"
     },
-    "terminal": {
+    "split-horizontal": {
       "fontCharacter": "\\e021"
     },
-    "trash": {
+    "split-vertical": {
       "fontCharacter": "\\e022"
     },
-    "trash2": {
+    "terminal": {
       "fontCharacter": "\\e023"
     },
-    "trash3": {
+    "trash": {
       "fontCharacter": "\\e024"
     },
-    "trash4": {
-      "fontCharacter": "\\e025"
-    },
     "trashcan": {
-      "fontCharacter": "\\e026"
+      "fontCharacter": "\\e025"
     }
   }
 }
